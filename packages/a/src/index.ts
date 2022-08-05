@@ -1,6 +1,6 @@
-import { a } from "@pnpm-test/core";
-import { Big, BigSource } from "@pnpm-test/core/big";
-import { from } from "@pnpm-test/core/rxjs";
+import { a } from "@pnpm-start/core";
+import { Big, BigSource } from "@pnpm-start/core/big";
+import { from } from "@pnpm-start/core/rxjs";
 
 console.log(a);
 
