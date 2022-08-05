@@ -1,0 +1,19 @@
+{
+  "name": "pnpm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm --stream -r start",
+    "start:dev": "pnpm --stream -r run start:dev",
+    "clean": "rm -rf .parcel-cache && pnpm -r run clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
