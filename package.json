@@ -2,11 +2,9 @@
   "name": "pnpm-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "pnpm --stream -r start",
-    "start:dev": "pnpm --stream -r run start:dev",
-    "clean": "rm -rf .parcel-cache && pnpm -r run clean"
+    "dev:a": "pnpm --stream -r dev:a",
+    "start:a": "pnpm --stream -r run start:a"
   },
   "keywords": [],
   "author": "",
