@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "dev:a": "pnpm --stream -r dev:a",
-    "start:a": "pnpm --stream -r run start:a"
+    "start:a": "pnpm --stream -r run start:a",
+    "dev:web": "pnpm --stream -r dev:web",
+    "build:web": "pnpm --stream -r run build:web"
   },
   "keywords": [],
   "author": "",
